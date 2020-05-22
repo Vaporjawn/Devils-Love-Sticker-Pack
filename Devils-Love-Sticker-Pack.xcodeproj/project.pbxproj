@@ -41,7 +41,7 @@
 /* Begin PBXFileReference section */
 		CB0A28881D9BBE3800109542 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CB0A288A1D9BBE5A00109542 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		CBEA99391D8AFB0500DC4318 /* amusing-kids.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "amusing-kids.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBEA99391D8AFB0500DC4318 /* Devil's Love Sticker Pack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Devil's Love Sticker Pack.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBEA993D1D8AFB0500DC4318 /* StickerPackExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = StickerPackExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBEA99411D8AFB0500DC4318 /* Stickers.xcstickers */ = {isa = PBXFileReference; lastKnownFileType = folder.stickers; name = Stickers.xcstickers; path = StickerPackExtension/Stickers.xcstickers; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -59,7 +59,7 @@
 		CBEA993A1D8AFB0500DC4318 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CBEA99391D8AFB0500DC4318 /* Devils-Love-Sticker-Pack.app */,
+				CBEA99391D8AFB0500DC4318 /* Devil's Love Sticker Pack.app */,
 				CBEA993D1D8AFB0500DC4318 /* StickerPackExtension.appex */,
 			);
 			name = Products;
@@ -70,7 +70,7 @@
 /* Begin PBXNativeTarget section */
 		CBEA99381D8AFB0500DC4318 /* Devils-Love-Sticker-Pack */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CBEA994A1D8AFB0600DC4318 /* Build configuration list for PBXNativeTarget "amusing-kids" */;
+			buildConfigurationList = CBEA994A1D8AFB0600DC4318 /* Build configuration list for PBXNativeTarget "Devils-Love-Sticker-Pack" */;
 			buildPhases = (
 				CBEA99371D8AFB0500DC4318 /* Resources */,
 				CBEA99491D8AFB0600DC4318 /* Embed App Extensions */,
@@ -82,7 +82,7 @@
 			);
 			name = "Devils-Love-Sticker-Pack";
 			productName = "Devils-Love-Sticker-Pack";
-			productReference = CBEA99391D8AFB0500DC4318 /* Devils-Love-Sticker-Pack.app */;
+			productReference = CBEA99391D8AFB0500DC4318 /* Devil's Love Sticker Pack.app */;
 			productType = "com.apple.product-type.application.messages";
 		};
 		CBEA993C1D8AFB0500DC4318 /* StickerPackExtension */ = {
@@ -111,7 +111,7 @@
 				TargetAttributes = {
 					CBEA99381D8AFB0500DC4318 = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = 2YJYBGG5KZ;
+						DevelopmentTeam = YPSLDB35D4;
 						ProvisioningStyle = Automatic;
 					};
 					CBEA993C1D8AFB0500DC4318 = {
@@ -323,13 +323,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
-				CURRENT_PROJECT_VERSION = 3;
-				DEVELOPMENT_TEAM = 2YJYBGG5KZ;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YPSLDB35D4;
 				INFOPLIST_FILE = "Devils-Love-Sticker-Pack/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				MARKETING_VERSION = 1.0.2;
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.todoslosdays.Devils-Love-Sticker-Pack";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Devil's Love Sticker Pack";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -338,13 +341,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
-				CURRENT_PROJECT_VERSION = 3;
-				DEVELOPMENT_TEAM = 2YJYBGG5KZ;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YPSLDB35D4;
 				INFOPLIST_FILE = "Devils-Love-Sticker-Pack/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				MARKETING_VERSION = 1.0.2;
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.todoslosdays.Devils-Love-Sticker-Pack";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Devil's Love Sticker Pack";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
