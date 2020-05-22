@@ -2,7 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      
-      location = "https://github.com/Vaporjawn/Devils-Love-Sticker-Pack/blob/master/Devils-Love-Sticker-Pack.xcodeproj/project.pbxproj">
+      location = "self:/Users/todoslosdays/Projects/Devils-Love-Sticker-Pack/Devils-Love-Sticker-Pack.xcodeproj">
    </FileRef>
 </Workspace>
