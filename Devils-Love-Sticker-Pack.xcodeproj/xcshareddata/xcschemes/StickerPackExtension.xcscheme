@@ -30,7 +30,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "CBEA99381D8AFB0500DC4318"
-               BuildableName = "Devils-Love-Sticker-Pack.app"
+               BuildableName = "Devil&apos;s Love Sticker Pack.app"
                BlueprintName = "Devils-Love-Sticker-Pack"
                ReferencedContainer = "container:Devils-Love-Sticker-Pack.xcodeproj">
             </BuildableReference>
@@ -62,7 +62,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "CBEA99381D8AFB0500DC4318"
-            BuildableName = "Devils-Love-Sticker-Pack.app"
+            BuildableName = "Devil&apos;s Love Sticker Pack.app"
             BlueprintName = "Devils-Love-Sticker-Pack"
             ReferencedContainer = "container:Devils-Love-Sticker-Pack.xcodeproj">
          </BuildableReference>
@@ -80,7 +80,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "CBEA99381D8AFB0500DC4318"
-            BuildableName = "Devils-Love-Sticker-Pack.app"
+            BuildableName = "Devil&apos;s Love Sticker Pack.app"
             BlueprintName = "Devils-Love-Sticker-Pack"
             ReferencedContainer = "container:Devils-Love-Sticker-Pack.xcodeproj">
          </BuildableReference>
