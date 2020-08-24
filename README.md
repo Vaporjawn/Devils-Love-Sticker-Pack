@@ -1,4 +1,4 @@
-# Devils-Love-Sticker-Pack - sticker pack for iMessage
+# Devil's Love Sticker Pack for iMessage
 Sticker pack for the webcomic Devil's Love on Instagram 
 
 ## :mortar_board: Introduction
