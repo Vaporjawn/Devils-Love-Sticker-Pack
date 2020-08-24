@@ -1,8 +1,32 @@
 # Devils-Love-Sticker-Pack - sticker pack for iMessage
-My first experiment with iOS development, Xcode, App Store, etc.
+Sticker pack for the webcomic Devil's Love on Instagram 
 
-## Screenshots
-<p float="left">
-  <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple62/v4/a2/f2/f1/a2f2f17e-63bb-96a9-eaca-6533a14bb0fa/pr_source.png/0x0ss.jpg" width="320" />
-  <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple62/v4/39/ff/db/39ffdb5b-fcdb-db1c-f394-cfac8ad27439/pr_source.png/0x0ss.jpg" width="320" />
-</p>
+## :mortar_board: Introduction
+
+![screenshot](screenshot1.png)
+![screenshot](screenshot2.png)
+
+---
+
+## :hammer: How to Build
+
+click the xcode project file and run in Xcode.  
+To install on your device, run the code on your device instead of a phone emulation.
+
+---
+## Support
+
+Reach out to me at one of the following places!
+
+- Website at <a href="http://vaporjawn.github.io/" target="_blank">`vaporjawn.com`</a>
+- Instagram at <a href="http://instagram.com/vaporjawn" target="_blank">`@vaporjawn`</a>
+
+---
+
+## :pencil: License
+
+
+[![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
+
+- **[MIT license](http://opensource.org/licenses/mit-license.php)**
+- Copyright 2020 © <a href="http://fvcproductions.com" target="_blank">FVCproductions</a>.
