@@ -125,8 +125,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A08BC9282477EC8D00040A31 /* Devil's Love Sticker Pack */,
 				A08BC92C2477EC8D00040A31 /* Devil's Love Sticker Pack StickerPackExtension */,
+				A08BC9282477EC8D00040A31 /* Devil's Love Sticker Pack */,
 			);
 		};
 /* End PBXProject section */
