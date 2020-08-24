@@ -1,0 +1,363 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A08BC92E2477EC8D00040A31 /* Devil's Love Sticker Pack StickerPackExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = A08BC92D2477EC8D00040A31 /* Devil's Love Sticker Pack StickerPackExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A08BC9322477EC8D00040A31 /* Stickers.xcstickers in Resources */ = {isa = PBXBuildFile; fileRef = A08BC9312477EC8D00040A31 /* Stickers.xcstickers */; };
+		A08BC9332477EC8D00040A31 /* Stickers.xcstickers in Resources */ = {isa = PBXBuildFile; fileRef = A08BC9312477EC8D00040A31 /* Stickers.xcstickers */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A08BC92F2477EC8D00040A31 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A08BC9232477EC8D00040A31 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A08BC92C2477EC8D00040A31;
+			remoteInfo = "Devil's Love Sticker Pack StickerPackExtension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A08BC9392477EC8D00040A31 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				A08BC92E2477EC8D00040A31 /* Devil's Love Sticker Pack StickerPackExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A08BC9292477EC8D00040A31 /* Devil's Love Sticker Pack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Devil's Love Sticker Pack.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A08BC92D2477EC8D00040A31 /* Devil's Love Sticker Pack StickerPackExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Devil's Love Sticker Pack StickerPackExtension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A08BC9312477EC8D00040A31 /* Stickers.xcstickers */ = {isa = PBXFileReference; lastKnownFileType = folder.stickers; name = Stickers.xcstickers; path = "Devil's Love Sticker Pack StickerPackExtension/Stickers.xcstickers"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		A08BC9222477EC8D00040A31 = {
+			isa = PBXGroup;
+			children = (
+				A08BC9312477EC8D00040A31 /* Stickers.xcstickers */,
+				A08BC92A2477EC8D00040A31 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A08BC92A2477EC8D00040A31 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A08BC9292477EC8D00040A31 /* Devil's Love Sticker Pack.app */,
+				A08BC92D2477EC8D00040A31 /* Devil's Love Sticker Pack StickerPackExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A08BC9282477EC8D00040A31 /* Devil's Love Sticker Pack */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A08BC93A2477EC8D00040A31 /* Build configuration list for PBXNativeTarget "Devil's Love Sticker Pack" */;
+			buildPhases = (
+				A08BC9272477EC8D00040A31 /* Resources */,
+				A08BC9392477EC8D00040A31 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A08BC9302477EC8D00040A31 /* PBXTargetDependency */,
+			);
+			name = "Devil's Love Sticker Pack";
+			productName = "Devil's Love Sticker Pack";
+			productReference = A08BC9292477EC8D00040A31 /* Devil's Love Sticker Pack.app */;
+			productType = "com.apple.product-type.application.messages";
+		};
+		A08BC92C2477EC8D00040A31 /* Devil's Love Sticker Pack StickerPackExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A08BC9362477EC8D00040A31 /* Build configuration list for PBXNativeTarget "Devil's Love Sticker Pack StickerPackExtension" */;
+			buildPhases = (
+				A08BC92B2477EC8D00040A31 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Devil's Love Sticker Pack StickerPackExtension";
+			productName = "Devil's Love Sticker Pack StickerPackExtension";
+			productReference = A08BC92D2477EC8D00040A31 /* Devil's Love Sticker Pack StickerPackExtension.appex */;
+			productType = "com.apple.product-type.app-extension.messages-sticker-pack";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A08BC9232477EC8D00040A31 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Victor Williams";
+				TargetAttributes = {
+					A08BC9282477EC8D00040A31 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					A08BC92C2477EC8D00040A31 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = A08BC9262477EC8D00040A31 /* Build configuration list for PBXProject "Devil's Love Sticker Pack" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A08BC9222477EC8D00040A31;
+			productRefGroup = A08BC92A2477EC8D00040A31 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A08BC9282477EC8D00040A31 /* Devil's Love Sticker Pack */,
+				A08BC92C2477EC8D00040A31 /* Devil's Love Sticker Pack StickerPackExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A08BC9272477EC8D00040A31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A08BC9332477EC8D00040A31 /* Stickers.xcstickers in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A08BC92B2477EC8D00040A31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A08BC9322477EC8D00040A31 /* Stickers.xcstickers in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A08BC9302477EC8D00040A31 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A08BC92C2477EC8D00040A31 /* Devil's Love Sticker Pack StickerPackExtension */;
+			targetProxy = A08BC92F2477EC8D00040A31 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A08BC9342477EC8D00040A31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A08BC9352477EC8D00040A31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A08BC9372477EC8D00040A31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YPSLDB35D4;
+				INFOPLIST_FILE = "Devil's Love Sticker Pack StickerPackExtension/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "vaporjawn.Devil-s-Love-Sticker-Pack.StickerPackExtension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A08BC9382477EC8D00040A31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YPSLDB35D4;
+				INFOPLIST_FILE = "Devil's Love Sticker Pack StickerPackExtension/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "vaporjawn.Devil-s-Love-Sticker-Pack.StickerPackExtension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A08BC93B2477EC8D00040A31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YPSLDB35D4;
+				INFOPLIST_FILE = "Devil's Love Sticker Pack/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "vaporjawn.Devil-s-Love-Sticker-Pack";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A08BC93C2477EC8D00040A31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YPSLDB35D4;
+				INFOPLIST_FILE = "Devil's Love Sticker Pack/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "vaporjawn.Devil-s-Love-Sticker-Pack";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A08BC9262477EC8D00040A31 /* Build configuration list for PBXProject "Devil's Love Sticker Pack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A08BC9342477EC8D00040A31 /* Debug */,
+				A08BC9352477EC8D00040A31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A08BC9362477EC8D00040A31 /* Build configuration list for PBXNativeTarget "Devil's Love Sticker Pack StickerPackExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A08BC9372477EC8D00040A31 /* Debug */,
+				A08BC9382477EC8D00040A31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A08BC93A2477EC8D00040A31 /* Build configuration list for PBXNativeTarget "Devil's Love Sticker Pack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A08BC93B2477EC8D00040A31 /* Debug */,
+				A08BC93C2477EC8D00040A31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A08BC9232477EC8D00040A31 /* Project object */;
+}
